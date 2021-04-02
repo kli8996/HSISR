@@ -1,1 +1,1 @@
-# Hyperspectral-Image-Super-Resolution-with-Spectral-Mixup-and-Heterogeneous-Datasets
+# HISR-Spectral-Mixup-Heterogeneous-Datasets
