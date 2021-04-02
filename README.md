@@ -49,6 +49,10 @@ Python 3.8, PyTorch 1.7.0, cuda v10.1.243
 --save_dir
 ./`
 
+## Training images
+In order to generate a reproducible result and facilitate the direct comparison, we also release the image lists that we used for training. 
+CAVE | Harvard | NTIRE2020 
+------------ | ------------- | -------------
 ## Citation
 ```
 @InProceedings{HSISRLi21,
