@@ -52,9 +52,10 @@ Python 3.8, PyTorch 1.7.0, cuda v10.1.243
 ./`
 
 ## Citation
-`@InProceedings{HSISRLi21,
+```
+@InProceedings{HSISRLi21,
   author = {Li, Ke and Dai, Dengxin and Konukoglu, Ender and {Van Gool}, Luc},
   title = {Hyperspectral Image Super-Resolution with Spectral Mixup and Heterogeneous Datasets},
   booktitle = {ArXiv:2101.07589},
   year = 2021
-}`
+}```
