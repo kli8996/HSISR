@@ -1,5 +1,5 @@
 # HISR-Spectral-Mixup-Heterogeneous-Datasets-PyTorch
-arXiv link:  https://arxiv.org/abs/2101.07589
+arXiv link:  https://arxiv.org/abs/2101.07589; Our code is based on https://github.com/junjun-jiang/SSPSR
 
 ## Hyperspectral Image Super-Resolution with Spectral Mixup and Heterogeneous Datasets
 
