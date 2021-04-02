@@ -25,11 +25,11 @@ Python 3.8, PyTorch 1.7.0, cuda v10.1.243
 --UseRGB
 1
 --theta_rgb
-6
+3
 --UseLabeledSpectralMixUp
 1
 --theta_LabeledSpectralMixUp
-2
+1
 --UseUnlabelConsistency
 1
 --theta_unlabel
@@ -37,17 +37,17 @@ Python 3.8, PyTorch 1.7.0, cuda v10.1.243
 --dataset_name
 "Harvard"
 --train_dir_mslabel
-/home/kexin/Data/Harvard/x4/Train_Semi_Labeled_10_x4/
+/Harvard/x4/Train_Semi_Labeled_10_x4/
 --data_train_num
 3396
 --data_test_num
 40
 --test_dir
-/home/kexin/Data/Harvard/x4/Testx4_All/
+/Harvard/x4/Testx4_All/
 --train_dir_rgb
-/home/kexin/Data/DIV2KRGB/Train_RGB2020_8channels_x4/
+/DIV2KRGB/Train_RGB2020_8channels_x4/
 --train_dir_msunlabel
-/home/kexin/Data/Harvard/x4/Train_Semi_Unlabeled_30_x4/
+/Harvard/x4/Train_Semi_Unlabeled_30_x4/
 --save_dir
 ./`
 
