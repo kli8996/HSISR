@@ -51,8 +51,8 @@ Python 3.8, PyTorch 1.7.0, cuda v10.1.243
 
 ## Training images
 In order to generate reproducible results and facilitate a direct comparison, we also release the image lists that we used for training test split. 
-CAVE | Harvard | NTIRE2020 
------------- | ------------- | -------------
+Data | CAVE | Harvard | NTIRE2020 
+------------ | ------------- | ------------- ------------ |
 
 ## Citation
 ```
