@@ -50,7 +50,7 @@ Python 3.8, PyTorch 1.7.0, cuda v10.1.243
 ./`
 
 ## Training images
-In order to generate reproducible results and facilitate a direct comparison, we also release our training-test splits of all datasets. The lists for CAVE, Harvard, and NTIRE2020 can be found in folder **image_list**. 
+In order to generate reproducible results and facilitate a direct comparison, we also release our splits of all datasets for labeled training sets, unlabeled training sets, and test sets. The lists for CAVE, Harvard, and NTIRE2020 can be found in folder **image_list**. 
 
 
 
