@@ -53,7 +53,7 @@ Here we give an example how to train the network:
 
 We use the following arguments to control whether to use and how to use our proposed components: 
 
---UseRGB 1                         # 1 means to use RGB image SR, and 0 otherwise
+--UseRGB 1                          1 means to use RGB image SR, and 0 otherwise
 
 --theta_rgb 3                      # 3 means RGB data is 3 times as much as the labeled hyperspectal data  
 
