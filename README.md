@@ -18,6 +18,7 @@ Python 3.8, PyTorch 1.7.0, cuda v10.1.243
     models/NTIRE2020_DeepShare_Blocks=3_Subs8_Ovls2_Feats=256_epoch_10_Thu_Apr__1_17:20:30_2021.pth
     
 ## Training example:
+Here we give an example how to train the network: 
 `python mains.py train --batch_size
 8
 --UseRGB
