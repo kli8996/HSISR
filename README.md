@@ -55,15 +55,15 @@ We use the following arguments to control whether to use and how to use our prop
 
 **--UseRGB 1**:                          (#1 means to use RGB image SR, and 0 otherwise)
 
---theta_rgb 3:                      (#**3 means RGB data is 3 times as much as the labeled hyperspectal data**)  
+**--theta_rgb 3**:                      (#3 means RGB data is 3 times as much as the labeled hyperspectal data)  
 
---UseUnlabelConsistency 1:          (#**1 means to use the SSL component based on unlabled consistency, and 0 otherwise**) 
+**--UseUnlabelConsistency 1**:          (#1 means to use the SSL component based on unlabled consistency, and 0 otherwise) 
 
---theta_unlabel 3:                  (#**3 means unlabeled hyperspectral data is 3 times as much as the labeled hyperspectal data**)  
+**--theta_unlabel 3**:                  (#3 means unlabeled hyperspectral data is 3 times as much as the labeled hyperspectal data)  
 
---UseLabeledSpectralMixUp 1:        (#**1 means to use our spectral mixup data augmentation, and 0 otherwise**)
+**--UseLabeledSpectralMixUp 1**:        (#1 means to use our spectral mixup data augmentation, and 0 otherwise)
 
---theta_LabeledSpectralMixUp 1:     (#**1 means to use 1 augmented sample per real sample**)
+**--theta_LabeledSpectralMixUp 1**:     (#1 means to use 1 augmented sample per real sample)
 
 ## Training images
 In order to generate reproducible results and facilitate a direct comparison, we also release our splits of all datasets for labeled training sets, unlabeled training sets, and test sets. The lists for CAVE, Harvard, and NTIRE2020 can be found in folder **image_list**. 
