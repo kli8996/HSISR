@@ -63,7 +63,7 @@ We use the following arguments to control whether to use and how to use our prop
 
 **--UseLabeledSpectralMixUp 1**:        (#1 means to use our spectral mixup data augmentation, and 0 otherwise)
 
-**--theta_LabeledSpectralMixUp 1**:     (#1 means to use 1 augmented sample per real sample)
+**--theta_LabeledSpectralMixUp 1**:     (#1 means to use 1 augmented sample per real sample, 2 or 3...is possible)
 
 ## Training images
 In order to generate reproducible results and facilitate a direct comparison, we also release our splits of all datasets for labeled training sets, unlabeled training sets, and test sets. The lists for CAVE, Harvard, and NTIRE2020 can be found in folder **image_list**. 
