@@ -54,10 +54,15 @@ Here we give an example how to train the network:
 We use the following arguments to control whether to use and how to use our proposed components: 
 
 --UseRGB 1                         # 1 means to use RGB image SR, and 0 otherwise
+
 --theta_rgb 3                      # 3 means RGB data is 3 times as much as the labeled hyperspectal data  
+
 --UseUnlabelConsistency 1          # 1 means to use the SSL component based on unlabled consistency, and 0 otherwise 
+
 --theta_unlabel 3                  # 3 means unlabeled hyperspectral data is 3 times as much as the labeled hyperspectal data  
+
 --UseLabeledSpectralMixUp 1        # 1 means to use our spectral mixup data augmentation, and 0 otherwise
+
 --theta_LabeledSpectralMixUp 1     # 1 means to use 1 augmented sample per real sample
 
 ## Training images
