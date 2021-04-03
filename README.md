@@ -19,6 +19,7 @@ Python 3.8, PyTorch 1.7.0, cuda v10.1.243
     
 ## Training example:
 Here we give an example how to train the network: 
+
 `python mains.py train --batch_size
 8
 --UseRGB
